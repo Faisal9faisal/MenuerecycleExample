@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="search"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/setting"
+
+        android:title="setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/File"
+        android:title="File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/LogIn"
+        android:title="LogIn"
+        app:showAsAction="never" />
+</menu>
